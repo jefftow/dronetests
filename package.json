@@ -6,7 +6,6 @@
     "body-parser": "^1.15.2",
     "config": "^1.21.0",
     "express": "^4.14.0",
-    "extended-exceptions": "^2.1.0",
     "immutable": "^3.8.1",
     "joi": "^9.1.0",
     "js-yaml": "^3.6.1",
