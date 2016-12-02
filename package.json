@@ -1,0 +1,43 @@
+{
+  "name": "service-under-test",
+  "version": "0.0.1",
+  "description": "The service under test",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "config": "^1.21.0",
+    "express": "^4.14.0",
+    "extended-exceptions": "^2.1.0",
+    "immutable": "^3.8.1",
+    "joi": "^9.1.0",
+    "js-yaml": "^3.6.1",
+    "method-override": "^2.3.6",
+    "moment-timezone": "^0.5.7",
+    "random-js": "^1.0.8",
+    "rx": "^4.1.0",
+    "uuid": "^2.0.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "debug": "node debug index.js",
+    "test": "mocha tests --recursive",
+    "debugtest": "mocha tests --recursive --debug-brk",
+    "pretest": "npm run lint",
+    "lint": "eslint *.js modules/** tests/**",
+    "create_table": "node scripts/create_table.js",
+    "insert_test_data": "node scripts/insert_test_data.js",
+    "get_hold": "node scripts/get_hold.js",
+    "delete_table": "node scripts/delete_table.js",
+    "coverage": "istanbul cover _mocha  -- **/tests/**/* -R spec"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.4",
+    "eslint": "^2.13.1",
+    "mocha": "^2.5.1",
+    "rewire": "^2.5.2",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "timekeeper": "^0.1.1",
+    "mockery": "^1.7.0",
+    "sinon": "^1.17.5"
+  }
+}
