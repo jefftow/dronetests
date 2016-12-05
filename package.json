@@ -4,14 +4,9 @@
   "description": "The service under test",
   "dependencies": {
     "body-parser": "^1.15.2",
-    "config": "^1.21.0",
     "express": "^4.14.0",
     "joi": "^9.1.0",
-    "method-override": "^2.3.6",
-    "moment-timezone": "^0.5.7",
-    "random-js": "^1.0.8",
-    "rx": "^4.1.0",
-    "uuid": "^2.0.3"
+    "moment-timezone": "^0.5.7"
   },
   "scripts": {
     "start": "node index.js",
