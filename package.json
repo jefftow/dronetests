@@ -7,7 +7,6 @@
     "config": "^1.21.0",
     "express": "^4.14.0",
     "joi": "^9.1.0",
-    "js-yaml": "^3.6.1",
     "method-override": "^2.3.6",
     "moment-timezone": "^0.5.7",
     "random-js": "^1.0.8",
